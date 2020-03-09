@@ -1,0 +1,50 @@
+{
+  "mini-css-extract-plugin ../../node_modules/css-loader/index.js??ref--6-1!../../node_modules/sass-loader/lib/loader.js??ref--6-2!pages/index.scss": [
+    {
+      "modules": {
+        "byIdentifier": {},
+        "usedIds": {}
+      },
+      "chunks": {
+        "byName": {
+          "mini-css-extract-plugin": 0
+        },
+        "bySource": {},
+        "usedIds": [
+          0
+        ]
+      }
+    }
+  ],
+  "modules": {
+    "byIdentifier": {
+      "css ../../node_modules/css-loader/index.js??ref--6-1!../../node_modules/sass-loader/lib/loader.js??ref--6-2!pages/index.scss 0": 0
+    },
+    "usedIds": {
+      "0": 0
+    }
+  },
+  "chunks": {
+    "byName": {
+      "static/runtime/webpack.js": 0,
+      "commons": 1,
+      "static/diZysNUlBuW43bN34JtlG/pages/_app.js": 2,
+      "static/diZysNUlBuW43bN34JtlG/pages/_error.js": 3,
+      "static/diZysNUlBuW43bN34JtlG/pages/index.js": 4,
+      "static/runtime/main.js": 5,
+      "static/runtime/polyfills.js": 6,
+      "styles": 7
+    },
+    "bySource": {},
+    "usedIds": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7
+    ]
+  }
+}
