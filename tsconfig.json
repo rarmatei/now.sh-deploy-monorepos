@@ -15,7 +15,11 @@
     "skipLibCheck": true,
     "skipDefaultLibCheck": true,
     "baseUrl": ".",
-    "paths": {}
+    "paths": {
+      "@monorepo-nowsh-deployment/custom-utilities": [
+        "libs/custom-utilities/src/index.ts"
+      ]
+    }
   },
   "exclude": ["node_modules", "tmp"]
 }
