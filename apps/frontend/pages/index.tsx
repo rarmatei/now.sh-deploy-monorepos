@@ -3,7 +3,6 @@ import React from 'react';
 import './index.scss';
 
 import { ReactComponent as NxLogo } from '../assets/nx-logo-white.svg';
-import { environment } from '../environments/environment';
 
 import { getTitle } from '@monorepo-nowsh-deployment/custom-utilities';
 
@@ -17,11 +16,7 @@ export const Index = () => {
     <div className="app">
       <header className="flex">
         <NxLogo alt="" width="75" height="50" />
-        <h1>
-          Welcome to frontend! [{environment.production ? 'PROD' : 'DEV'}]
-          <br></br>
-          {getTitle()}
-        </h1>
+        <h1>{getTitle()}</h1>
       </header>
       <main>
         <h2>Resources &amp; Tools</h2>

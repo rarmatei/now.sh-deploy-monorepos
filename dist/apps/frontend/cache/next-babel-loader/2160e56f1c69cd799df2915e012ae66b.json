@@ -1,0 +1,1 @@
+{"ast":null,"code":"export function getTitle() {\n  return 'This is a custom title!';\n}","map":null,"metadata":{},"sourceType":"module"}
