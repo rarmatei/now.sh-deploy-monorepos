@@ -2,6 +2,8 @@
 
 This repository is managed with [Nx](https://nx.dev/). The tool allows you to easily manage monorepos and have multiple apps running in the same repo, with a shared set of libs, and a common `package.json` to maintain consistent versions across packages.
 
+Video explaining the problem: https://youtu.be/7AGjUiXmkzg
+
 ---
 
 The **Next.JS** app is in `apps/frontend`
